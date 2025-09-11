@@ -1,4 +1,4 @@
-	from revision.functions_utils import is_number_bigger_than_given, add_salt_to_list
+from revision.function_utils import is_number_bigger_than_given, add_salt_to_list
 
 
 def main():

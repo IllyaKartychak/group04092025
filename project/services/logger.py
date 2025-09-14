@@ -11,7 +11,7 @@ def get_logger():
         host=f'https://{HOST}',
     )
     logger = logging.getLogger(__name__)
-    logger.setLevel(logging.ERROR)
+    logger.setLevel(logging.INFO)
     logger.handlers = []
     logger.addHandler(handler)
     return logger

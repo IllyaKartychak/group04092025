@@ -14,3 +14,4 @@ def get_biggest_number_from_list(numbers: list) -> float:
     if not right_numbers:
         return 0
     return max(right_numbers)
+

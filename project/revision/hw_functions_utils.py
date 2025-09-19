@@ -15,3 +15,18 @@ def get_biggest_number_from_list(numbers: list) -> float:
         return 0
     return max(right_numbers)
 
+
+BASE_PRICE = 100
+
+
+def get_ticket_price(age: int) -> float:
+    if age < 6:
+        return 0
+    if 6 <= age <= 17:
+        discount = BASE_PRICE * 0.5
+        return BASE_PRICE - discount
+    if 18 <= age <= 59:
+        return BASE_PRICE
+    if 60 <= age:
+        discount = BASE_PRICE * 0.3
+        return BASE_PRICE - discount

@@ -1,4 +1,4 @@
-from revision.functions_utils import is_number_bigger_than_given, get_string_length_no_whitespaces, get_auto_distance
+from revision.function_utils import is_number_bigger_than_given, get_string_length_no_whitespaces, get_auto_distance
 
 
 def test_is_number_bigger_than_given_1():

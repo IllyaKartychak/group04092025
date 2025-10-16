@@ -5,6 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "boto3>=1.40.48",
     "logtail-python>=0.3.4",
+    "pyjwt>=2.10.1",
     "pytest>=8.4.2",
+    "python-dotenv>=1.1.1",
+    "redis>=6.4.0",
+    "requests>=2.32.5",
 ]

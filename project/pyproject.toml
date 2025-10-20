@@ -7,6 +7,7 @@ requires-python = ">=3.11"
 dependencies = [
     "boto3>=1.40.48",
     "logtail-python>=0.3.4",
+    "psycopg2>=2.9.11",
     "pyjwt>=2.10.1",
     "pytest>=8.4.2",
     "python-dotenv>=1.1.1",

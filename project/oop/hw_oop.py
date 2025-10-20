@@ -1,5 +1,7 @@
 class Book:
     def __init__(self, author_name: str, book_name: str, book_id: int):
+        if not book_name.strip():
+            raise ValueError('Name not provided')
         self.author_name = author_name.title()
         self.book_name = book_name.title()
         self.id = book_id
